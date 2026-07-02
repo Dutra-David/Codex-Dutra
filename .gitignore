@@ -1,0 +1,51 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Ambiente
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.npm/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Tauri
+src-tauri/target/
+
+# Arquivos gerados
+codex_hardware_profile.json
+backend/codex_hardware_profile.json
+
+# ChromaDB
+chroma_db/
+
+# Whisper models
+models/
